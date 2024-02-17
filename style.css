@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+img {
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  img {
+    max-width: 200px;
+  }
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+body{
+    font-family: 'poppins', sans-serif;
+    color: #944E63;
+    background-color:#f5e8e8;
+}
+/*Navbar Style*/
+
+
+.navbar .navbar-brand{
+    font-weight: 700;
+}
+
+
+.home{
+    position: relative;
+    max-width: 1500px;
+    min-height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4rem 2rem;
+    flex-direction: column;
+}
+
+.home-img img{
+    margin-top: 60px;
+    align-items: center;
+    margin-right: 150px;
+    border-radius: 50%;
+}
+.home .home-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.home-container a{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+  
+}
+
+.social-media a{
+  display: inline-block;
+  justify-content: center;
+  font-size: 50px;
+}
+.social-media-icon {
+ color: #125C13;
+}
+
+.info{
+  margin-top: 10%;
+  margin-left: 10%;
+}
+
+.info h2{
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(63, 50, 50);
+    justify-content: center;
+}
+.info p{
+    font-size: 20px;
+    justify-content: center;
+}
+
+
+.btn{
+  display: inline-block;
+  background: rgb(198, 157, 157);
+  border-radius: .6rem;
+  box-shadow: 0 .2rem .5rem rgb(231, 200, 200);
+  font-size: 20px;
+  color: #944E63;
+  letter-spacing: 1px;
+  font-weight: 600;
+  border: 2px solid transparent;
+  transition: .5s ease;
+}
+
+.btn:hover{
+  background: transparent;
+  color: rgb(113, 57, 57);
+  border-color: rgb(224, 201, 201);
+}
+
+button {
+margin-top: 10px;
+}
+/* ABOUT SECTION */
+
+#about {
+  position: relative;
+}
+.section__text__p1 .title{
+  margin-left: 50%;
+  justify-content: center;
+}
+
+.about-containers {
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.about-details-container {
+  justify-content: center;
+  flex-direction: column;
+}
+
+.section__pic-container img, p, h1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-containers,
+.about-details-container {
+  display: flex;
+}
+
+.about-pic {
+  border-radius: 2rem;
+  margin-left: 40%;
+}
+
+
+
+.details-container {
+  padding: 1.5rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+}
+
+.section-container {
+  gap: 4rem;
+  height: 80%;
+}
+
+  /* PROJECTS SECTION */
+
+  #projects {
+    position: relative;
+  }
+  
+  .color-container {
+    border-color: #125C13;
+    background: rgb(250, 250, 250);
+    width: 15rem;
+  }
+  
+  .project-img {
+    border-radius: 2rem;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .project-title {
+    margin: 1rem;
+    color: black;
+  }
+  
+  .project-btn {
+    color: black;
+    border-color: #125C13;
+  }
+  
+.social-media{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-left: 4rem;
+    gap: 1rem;
+   
+}
+
+#contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 70vh;
+}
+
+.contact-info-upper-container {
+  display: flex;
+  justify-content: center;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: #125C13;
+  background: (250, 250, 250);
+  margin: 2rem auto;
+  padding: 0.5rem;
+}
+
+.contact-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem;
+}
+
+.contact-info-container p {
+  font-size: larger;
+}
+
+.contact-icon {
+  cursor: default;
+}
+
+.email-icon {
+  height: 4rem;
+}
+
+/* FOOTER SECTION */
+
+footer {
+  height: 26vh;
+  margin: 0 1rem;
+}
+.nav-links-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -5%;
+}
+.nav-links li{
+  display: inline-block;
+  padding: 5px;
+  margin: 10px;
+}
+.nav-links a{
+  color: rgb(21, 101, 53);
+  font-weight: 300;
+  font-size: 20px;
+}
+.nav-links a:hover{
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 25px;
+  background-color: #517654;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 50px;
+}
+footer p {
+  text-align: center;
+}
